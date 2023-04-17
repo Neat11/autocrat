@@ -10,8 +10,8 @@ export default function Header() {
             <Image alt='' src={Logo} className='w-fit h-fit'/>
         </div>
         <div className='sm:flex flex-row justify-evenly w-max p-10 hidden'>
-            <Button className='font-semibold text-xl font-Playfair text-black m-5'>Home</Button>
-            <Button className='font-semibold text-xl font-Playfair text-black m-5'>Services</Button>
+            <Button href='/' className='font-semibold text-xl font-Playfair text-black m-5'>Home</Button>
+            <Button href='/service' className='font-semibold text-xl font-Playfair text-black m-5'>Services</Button>
         </div>
         <Button variant='contained' className='bg-[#413166] hover:bg-[#413166] transition transform hover:scale-110 ease-in-out duration-500 delay-150'>Contact Us</Button>
     </div>

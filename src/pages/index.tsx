@@ -31,8 +31,9 @@ export default function Home() {
             </div>
         </div>
       </div>
-      <div className='w-[100vw] overflow-hidden'>
-      <Services/>
+      <p className='text-4xl font-bold font-Playfair text-blue-950'>Our Services</p>
+      <div className='w-[100vw] overflow-scroll no-scrollbar'>
+        <Services/>
       </div>
       <Footer/>
       <Header/>

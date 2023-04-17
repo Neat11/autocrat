@@ -4,8 +4,7 @@ export default function Services() {
     const insurances = [["Home Insurance","Lorem Ipsum","https://insurshtml.websitelayout.net/img/service/service-2.jpg"],["Business Insurance","Lorem Ipsum","https://insurshtml.websitelayout.net/img/service/service-2.jpg"],["Fire Insurance","Lorem Ipsum","https://insurshtml.websitelayout.net/img/service/service-2.jpg"], ["Car Insurance","Lorem Ipsum","https://insurshtml.websitelayout.net/img/service/service-2.jpg"],["Home Insurance","Lorem Ipsum","https://insurshtml.websitelayout.net/img/service/service-2.jpg"],["Business Insurance","Lorem Ipsum","https://insurshtml.websitelayout.net/img/service/service-2.jpg"],["Fire Insurance","Lorem Ipsum","https://insurshtml.websitelayout.net/img/service/service-2.jpg"], ["Car Insurance","Lorem Ipsum","https://insurshtml.websitelayout.net/img/service/service-2.jpg"]]
   return (
     <div className='m-3 p-3 sm:m-10 w-[100vw] '>
-        <p className='text-4xl font-bold mb-7 text-blue-950'>Our Services</p>
-        <div className='flex flex-row h-[400px] flex-1 overflow-x-auto w-[100vw] m-3  overflow-scroll no-scrollbar'>
+        <div className='flex flex-row h-[400px] flex-1 w-[100vw] m-3'>
             {
                 insurances.map((e)=>{
                     return <div className='h-[350px] w-[350px] mr-10 bg-cover rounded-lg bg-no-repeat' style={{backgroundImage: "url("+e[2]+")"}}>
