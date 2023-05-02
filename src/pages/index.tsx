@@ -13,13 +13,13 @@ export default function Home() {
   return (
     <div className='flex flex-col h-full w-full items-center overflow-hidden'>
       <Carousel/>
-      <div className='flex sm:flex-row flex-wrap w-[95vw] items-center mt-20 h-max mb-20 justify-center'>
-        <div className='flex flex-row flex-grow-[1] items-center justify-center'>
-          <img src="https://insurshtml.websitelayout.net/img/content/about-03.jpg" alt="" className='rounded-md w-[48%] mt-0'/>
-          <img src="https://insurshtml.websitelayout.net/img/content/about-04.jpg" alt="" className='rounded-md w-[48%] mt-16 ml-[3vw]'/>
+      <div className='flex sm:flex-row max-lg:flex-wrap w-[95vw] items-center mt-20 h-max mb-20 justify-center'>
+        <div className='flex flex-row  items-center justify-center'>
+          <img src="https://insurshtml.websitelayout.net/img/content/about-03.jpg" alt="" className='rounded-md w-[45%] mt-0'/>
+          <img src="https://insurshtml.websitelayout.net/img/content/about-04.jpg" alt="" className='rounded-md w-[45%] mt-16 ml-[3vw]'/>
           <img src="https://insurshtml.websitelayout.net/img/icons/03.png" alt="" className='rounded-full bg-[#837eb2] h-[90px] p-[20px] absolute'/>
         </div>
-        <div className='flex flex-grow-[1] flex-col p-[3vw] max-w-7xl w-[45vw]'>
+        <div className='flex flex-col max-lg:w-full p-[3vw] max-w-7xl w-[45vw]'>
             <p className='text-3xl text-blue-950 font-bold mb-10'>Assist customers with arriving at the objectives.</p>
             <p className='text-xl text-blue-950 '>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
             <div className='flex sm:flex-row flex-col w-[100%] items-center py-10 border-b-[1px] border-gray-400'>

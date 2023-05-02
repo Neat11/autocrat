@@ -12,8 +12,9 @@ export default function Header() {
         <div className='sm:flex flex-row justify-evenly w-max p-10 hidden'>
             <Button href='/' className='font-semibold text-xl font-Playfair text-black m-5'>Home</Button>
             <Button href='/service' className='font-semibold text-xl font-Playfair text-black m-5'>Services</Button>
+            <Button href='/achievements' className='font-semibold text-xl font-Playfair text-black m-5'>Achievements</Button>
         </div>
-        <Button variant='contained' className='bg-[#413166] hover:bg-[#413166] transition transform hover:scale-110 ease-in-out duration-500 delay-150'>Contact Us</Button>
+        <Button variant='contained' href="#footer" className='bg-[#413166] hover:bg-[#413166] transition transform hover:scale-110 ease-in-out duration-500 delay-150'>Contact Us</Button>
     </div>
   )
 }
